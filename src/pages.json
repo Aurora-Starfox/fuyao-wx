@@ -20,6 +20,20 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path" : "pages/pickOrder/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "uni-app"
+			}
+		},
+		{
+			"path" : "pages/chooseOrder/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
 	"globalStyle": {
