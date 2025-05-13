@@ -1,0 +1,17 @@
+.main-page{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 80rpx 80rpx 0;
+}
+.common-btn {
+	min-width: 200rpx;
+	padding: 40rpx;
+	border-top: 2px solid #77f4af;
+	border-bottom: 2px solid #0ff695;
+	text-align: center;
+	color: #0ff695;
+	font-size: 18px;
+	background: rgba(12, 246, 149, 0.2);
+}

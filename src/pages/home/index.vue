@@ -4,14 +4,14 @@
 			style="position: fixed;width: 100vw;height: 100vh;z-index:-1;background-color: #eeeeee;">
 		</image>
 		<view class="main-page">
-			<p class="btn" @click="goPage(1)">
+			<p class="common-btn" @click="goPage(1)">
 				接单
 			</p>
 			<view class="center-content">
-				<p class="btn">投诉中心</p>
-				<p class="btn">打手登记</p>
+				<p class="common-btn">投诉中心</p>
+				<p class="common-btn">打手登记</p>
 			</view>
-			<view class="btn">
+			<view class="common-btn">
 				后台管理
 			</view>
 		</view>
@@ -45,17 +45,6 @@
 			.background-pic {
 				width: 100rpx;
 				height: 100rpx;
-			}
-
-			.btn {
-				min-width: 200rpx;
-				padding: 40rpx;
-				border-top: 2px solid #77f4af;
-				border-bottom: 2px solid #0ff695;
-				text-align: center;
-				color: #0ff695;
-				font-size: 18px;
-				background: rgba(12, 246, 149, 0.2);
 			}
 
 			.center-content {
